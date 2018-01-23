@@ -1,7 +1,7 @@
 A simple PHP class to grab cryptocurrency information using the <a href="https://www.cryptocompare.com/api/#">CryptoCompare API</a>.  The class can be uses "as is" to grab current price, market capitalization and other market information in real time, or can be modified to grab more information.
 
 <h1>Usage</h1>
-Instantiate the <code>cryptoAll</code> class using:
+Include cryptoprice.php using <code>include("cryptoprice.php");</code> and instantiate the <code>cryptoAll</code> class using:
 </br>
 </br>
 <code>$crypto = new cryptoAll($fromccy, $currency);</code> where <code>$fromccy</code> and <code>$currency</code> are user-defined variables for currency from and currency to (e.g. XRP to GBP).
